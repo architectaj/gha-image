@@ -11,7 +11,7 @@ apt-get upgrade -y && \
 # #clean
 apt-get autoclean
 
-## add github user
+## add github user##
 RUN useradd github
 
 ##install Terraform
